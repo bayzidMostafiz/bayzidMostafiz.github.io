@@ -36,8 +36,10 @@
 
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/progresscircle.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
@@ -76,13 +78,13 @@
 
     <section id="banner">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 banner_left">
+            <div class="row d-flex flex-column-reverse">
+                <div class="col-sm-6 banner_left "data-aos="fade-right">
                     <div class="banner_info">
                         <h5>Welcome to my world</h5>
                         <h1>Hi, I’m <span>Md.Bayzid Mostafiz</span> </h1>
                         <p>a <span class="element"></span></p>
-                        <h4>Diploma in Computer from Pakundia Institute Of Technology.
+                        <h4>Diploma in Computer from Pakundia Institute Of Technology. <br>
 
                             Certified Frontend Developer by Creative IT Institute.</h4>
                     </div>
@@ -128,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class=" col-sm-6" data-aos="fade-left" >
                     <div class="banner_image">
                         <img class="img-fluid" src="images/Bayzid.jpg" alt="">
                     </div>
@@ -148,8 +150,8 @@
 
     <section id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-6 about_left">
+            <div class="row d-flex flex-column">
+                <div class="col-sm-6 col-xs-12 about_left" data-aos="fade-right">
                     <div class="about_cnt">
                         <h3>Any type of question & Discussion</h3>
                         <p>Let's Talk<span>--------------</span></p>
@@ -158,7 +160,7 @@
                         <h5>Whatsapp: 01998207203</h5>
                     </div>
                 </div>
-                <div class="col-6 about_right">
+                <div class="col-sm-6 col-xs-12 about_right" data-aos="fade-left">
                     <div class="about_info">
                         <h2>
                             About me
@@ -191,7 +193,7 @@
                         ==================== -->
 
     <section id="skils">
-        <div class="container">
+        <div class="container"data-aos="fade-up">
             <h3>My Skils </h3>
             <div class="progress_bar">
                 <div class="circlechart" data-percentage="90">HTML</div>
@@ -212,7 +214,7 @@
         <div class="container">
             <h3>My Portfolio </h3>
             <div class="row port_item">
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/project-1.jpg" alt="">
                         <div class="overlay">
@@ -221,7 +223,7 @@
                     </div>
                     <h4>NFT Dashboard Application Development.</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/port-2.jpg" alt="">
                         <div class="overlay">
@@ -230,7 +232,7 @@
                     </div>
                     <h4>Online Food Delivery Mobile App Design.</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/port-3.jpg" alt="">
                         <div class="overlay">
@@ -239,7 +241,7 @@
                     </div>
                     <h4>Travel App Design Creativity & Application.</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/port-4.jpg" alt="">
                         <div class="overlay">
@@ -248,7 +250,7 @@
                     </div>
                     <h4>Workout Website Design And Development.</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/port-5.jpg" alt="">
                         <div class="overlay">
@@ -257,7 +259,7 @@
                     </div>
                     <h4>Mobile Application Landing Page Design.</h4>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 inner_item">
+                <div class="col-sm-12 col-md-6 col-lg-4 inner_item" data-aos="zoom-in">
                     <div class="image">
                         <img class="img-fluid w-100" src="images/port-6.jpg" alt="">
                         <div class="overlay">
@@ -283,7 +285,7 @@
         <div class="container">
             <h4>My Pricing</h4>
             <div class="row prc_sec">
-                <div class="col-lg-6 pricing">
+                <div class="col-lg-6 pricing" data-aos="fade-right">
                     <h4>Basic</h4>
                     <div class="price_header d-flex">
                         <div class="header_left">
@@ -358,7 +360,7 @@
 
 
 
-                <div class="col-lg-6 pricing">
+                <div class="col-lg-6 pricing" data-aos="fade-left">
                     <h4>Standard</h4>
                     <div class="price_header d-flex">
                         <div class="header_left">
@@ -447,8 +449,8 @@
     <section id="contact">
         <div class="container">
             <h6>Contact With Me </h6>
-            <div class="row">
-                <div class="col-4 cnt_info">
+            <div class="row cnt_pad">
+                <div class="col-4 cnt_info" data-aos="fade-right">
                     <div class="contact_left">
                         <img class="img-fluid" src="images/contact1.png" alt="">
                         <h3>Bayzid Mostafiz</h3>
@@ -476,7 +478,7 @@
                     </div>
                 </div>
                 <div class="col-8">
-                    <div class="contact_right">
+                    <div class="contact_right" data-aos="fade-left">
                         <form >
                             <input type="text" id="name" placeholder="Enter Your Name" required>
                             <input type="email" id="email" placeholder="Enter Your Email" required>
@@ -496,10 +498,37 @@
                         ==================== -->
 
                         <!-- ===============
-                            portfolio  part start
+                            footer  part start
                         ==================== -->
+
+    <footer>
+        <div class="container"  data-aos="zoom-in">
+            <div class="footer">
+                <div class="name">
+                    <h4>Md.Bayzid Mostafiz <span>..</span></h4>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h5>&#169; 2022. All rights reserved by Bayzid_Mostafiz...</h5>
+        </div>
+    </footer>
+
                         <!-- ===============
-                            portfolio  part end
+                            footer  part end
                         ==================== -->
 
 
@@ -508,6 +537,7 @@
       <script src="js/jquery-1.12.4.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <script src="js/progresscircle.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/script.js"></script>
 </body>

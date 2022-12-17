@@ -161,4 +161,12 @@ var typed = new Typed('.element', {
   
   });
 
+  AOS.init({
+    useClassNames: true,
+    initClassName: false,
+    animatedClassName: 'animated',
+    duration: "1500",
+    refresh:'windrow',
+  });
+  
   

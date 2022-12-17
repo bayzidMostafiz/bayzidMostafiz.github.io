@@ -1,0 +1,124 @@
+@media(max-width:575.98px){
+    nav .logo_name a{
+        font-size: 22px;
+    }
+    .banner_left .banner_info {
+        padding: 20px 0;
+    }
+    #banner .banner_info h5 {
+        font-size: 16px;
+    }
+    #banner .banner_info h1 {
+        font-size: 20px;
+    }
+    #banner .banner_info p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #banner .banner_info h4 {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .banner_left .find_me .fwm p {
+        font-size: 17px;
+    }
+    .banner_left .find_me .social ul li{
+        padding: 5px;
+    }
+    .banner_left .find_me .social ul li a {
+        font-size: 15px;
+        height: 26px;
+        width: 26px;
+        margin: 0;
+    }
+    #banner .banner_image {
+        padding: 10px;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    #about .about_left .about_cnt h3 {
+        font-size: 20px;
+    }
+    #about .about_left .about_cnt p {
+        padding: 25px 0 5px 30px;
+        font-size: 17px;
+    }
+    #about .about_left .about_cnt span {
+        font-size: 15px;
+    }
+    #about .about_left .about_cnt h5 {
+        font-size: 15px;
+    }
+    #about .about_right .about_info h2 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    #about .about_right .about_info p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+    #about .about_right .about_info h3 {
+        font-size: 15px;
+    }
+    #skils {
+        padding-top: 40px;
+    }
+    #skils .container h3 {
+        font-size: 30px;
+    }
+    .circle-chart {
+        width: 63px;
+        height: 61px;
+    }
+    #portfolio {
+        padding-top: 40px;
+    }
+    #portfolio h3 {
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    #portfolio .port_item .inner_item .overlay a {
+        padding: 8px 5px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    #portfolio .port_item .inner_item h4 {
+        font-size: 16px;
+    }
+    #portfolio .port_item .inner_item {
+        margin-bottom: 30px;
+    }
+    #portfolio .port_item .inner_item:last-child{
+        margin-bottom: 0;
+    }
+    #pricing {
+        padding-top: 40px;
+    }
+    #pricing h4 {
+        font-size: 30px;
+    }
+    #pricing h4 {
+        font-size: 24px;
+    }
+    #pricing .price_header h5 {
+        font-size: 20px;
+    }
+    
+    #pricing .price_header p {
+        font-size: 20px;
+    }
+    .pricing .pricing_body .detils p {
+        font-size: 17px;
+    }
+    .pricing .pricing_body .info .info_srv p {
+        padding-left: 9px;
+        font-size: 10px;
+    }
+    #pricing .pricing {
+        margin-bottom: 70px;
+    }
+    .pricing .order a {
+        font-size: 16px;
+    }
+}

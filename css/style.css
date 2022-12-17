@@ -442,6 +442,9 @@ nav .container{
     font-weight: 700;
     padding-bottom: 30px;
 }
+.cnt_pad{
+    padding-bottom: 40px;
+}
 #contact .contact_left{
     box-shadow: var(--shadow-1);
     padding: 20px;
@@ -531,14 +534,67 @@ nav .container{
             /*  ===============
                 contact part end
             ====================  */
+
+
             /*  ===============
-                skils part start
-            ====================  */
-            /*  ===============
-                skils part end
+                footer part start
             ====================  */
 
-            /* 8c5854c8-c0f5-4915-b600-34faec37d121
-            9EAD39703CC7016725A1307362DA66E12818 */
+footer{
+    padding-top: 60px;
+}
+footer .container{
+    border: none;
+}
+.footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer .name h4{
+    color: var(--white);
+    font-size: 30px;
+    font-family: var(--praimery_font);
+    font-weight: 600;
+}
+.footer .name h4 span{
+    color: var(--red);
+    font-size: 30px;
+    font-family: var(--praimery_font);
+    font-weight: 600;
+}
+.footer .social ul{
+    padding-top: 20px;
+}
+.footer .social ul li{
+    display: inline-block;
+}
+.footer .social ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--white);
+    background: #212428;
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 6px #000;
+}
 
-            /* 2A702F322CC74B21E659C024C0438BF43601 */
+.copyright {
+	padding: 20px 0;
+	background: var(--black);
+	box-shadow: 0px 15px 20px #000;
+}
+.copyright h5{
+    background: var(--black);
+    text-align: center;
+    color: var(--peragraph_color);
+}
+
+
+            /*  ===============
+                footer part end
+            ====================  */
