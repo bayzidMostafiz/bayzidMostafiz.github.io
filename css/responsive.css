@@ -118,7 +118,47 @@
     #pricing .pricing {
         margin-bottom: 70px;
     }
+    #pricing .pricing:last-child {
+        margin-bottom: 0;
+    }
     .pricing .order a {
         font-size: 16px;
+    }
+
+
+    #contact {
+        padding-top: 40px;
+    }
+    #contact h6 {
+        font-size: 30px;
+        padding-bottom: 22px;
+    }
+    #contact .contact_left h3 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    #contact .contact_left p {
+        font-size: 16px;
+    }
+    #contact .contact_left h4 {
+        font-size: 17px;
+    }
+    #contact .contact_left h5 {
+        font-size: 16px;
+    }
+    #contact .contact_left .find_me {
+        padding: 35px 0 0px 0;
+    }
+    #contact .contact_left {
+        margin-bottom: 40px;
+    }
+    .footer .name h4 {
+        font-size: 25px;
+    }
+    .copyright h5 {
+        background: var(--black);
+        text-align: center;
+        color: var(--peragraph_color);
+        font-size: 15px;
     }
 }
