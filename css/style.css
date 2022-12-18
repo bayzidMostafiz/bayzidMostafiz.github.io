@@ -118,7 +118,9 @@ nav .container{
 .banner_left .find_me .social ul{
     display: flex;
 }
-
+.banner_left .find_me .social ul li {
+    padding: 20px;
+}
 .banner_left .find_me .social ul li a{
     font-size: 25px;
     text-decoration: none;
@@ -128,6 +130,7 @@ nav .container{
     height: 45px;
     width: 45px;
     border-radius: 5px;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +183,7 @@ nav .container{
     font-family: var(--praimery_font);
     padding-left: 30px;
     padding-top: 5px;
-    line-height: 0.5;
+    line-height: 1;
 
 }
 #about .about_right .about_info{
@@ -489,6 +492,9 @@ nav .container{
 #contact .contact_left .social ul{
     display: flex;
 }
+#contact .contact_left .social ul li{
+    padding: 20px;
+}
 #contact .contact_left .social ul li a{
     font-size: 25px;
     text-decoration: none;
@@ -497,6 +503,7 @@ nav .container{
     margin-left: 10px;
     height: 45px;
     width: 45px;
+    margin: 0;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -568,6 +575,7 @@ footer .container{
 }
 .footer .social ul li{
     display: inline-block;
+    padding: 20px;
 }
 .footer .social ul li a{
     font-size: 25px;
@@ -577,7 +585,7 @@ footer .container{
     margin-left: 10px;
     height: 45px;
     width: 45px;
-    border-radius: 5px;
+    border-radius: 5px;margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -593,6 +601,7 @@ footer .container{
     background: var(--black);
     text-align: center;
     color: var(--peragraph_color);
+    line-height: 1.5;
 }
 
 
