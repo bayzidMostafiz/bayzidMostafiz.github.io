@@ -2,6 +2,9 @@
     nav .logo_name a{
         font-size: 22px;
     }
+    .banner-main{
+        flex-direction: column-reverse;
+    }
     .banner_left .banner_info {
         padding: 20px 0;
     }
@@ -49,6 +52,7 @@
     }
     #about .about_left .about_cnt h5 {
         font-size: 15px;
+        line-height: 1.3;
     }
     #about .about_right .about_info h2 {
         font-size: 30px;
