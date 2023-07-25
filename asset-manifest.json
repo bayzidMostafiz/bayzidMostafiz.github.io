@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bayzidmostafiz.github.io/static/css/main.6bdb3fa8.css",
+    "main.js": "/bayzidmostafiz.github.io/static/js/main.81e8a632.js",
+    "static/js/787.6fb81752.chunk.js": "/bayzidmostafiz.github.io/static/js/787.6fb81752.chunk.js",
+    "index.html": "/bayzidmostafiz.github.io/index.html",
+    "main.6bdb3fa8.css.map": "/bayzidmostafiz.github.io/static/css/main.6bdb3fa8.css.map",
+    "main.81e8a632.js.map": "/bayzidmostafiz.github.io/static/js/main.81e8a632.js.map",
+    "787.6fb81752.chunk.js.map": "/bayzidmostafiz.github.io/static/js/787.6fb81752.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bdb3fa8.css",
+    "static/js/main.81e8a632.js"
+  ]
+}
